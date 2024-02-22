@@ -1,3 +1,5 @@
+package coroutines
+
 import kotlinx.coroutines.*
 import java.text.SimpleDateFormat
 
@@ -45,13 +47,13 @@ private suspend fun superVisorJobWillWork() {
 
         supervisorScope {
 
-            val job1 = launch {
+            val job1 = launch {// Direct parent is SupervisorJob()
                 println("Doing Job1")
                 delay(3000)
                 println("Job1 Complete")
             }
 
-            val job2 = launch {
+            val job2 = launch {// Direct parent is SupervisorJob()
                 println("Doing Job2")
                 delay(1000)
                 println("Job2: Throw an exception")

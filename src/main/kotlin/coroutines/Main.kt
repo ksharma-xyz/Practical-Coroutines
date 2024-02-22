@@ -1,4 +1,5 @@
-import kotlinx.coroutines.DelicateCoroutinesApi
+package coroutines
+
 import kotlinx.coroutines.runBlocking
 
 fun main(args: Array<String>) {
