@@ -205,7 +205,7 @@ suspend fun simulateDataProcessing(items: List<String>) {
     println("Batch processed successfully")
 }
 
-suspend fun simulateNetworkCall(data: String): String {
+suspend fun simulateBatchNetworkCall(data: String): String {
     delay(kotlin.random.Random.nextLong(100, 500))
     if (data.startsWith("error")) throw RuntimeException("Network error for $data")
     return "Processed: $data"
