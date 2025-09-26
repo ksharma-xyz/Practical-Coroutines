@@ -17,6 +17,29 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
+# IntelliJ IDEA
+.idea/workspace.xml
+.idea/misc.xml
+.idea/tasks.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/libraries/
+
+# Keep these IntelliJ files (useful to share)
+# .idea/vcs.xml
+# .idea/gradle.xml
+# .idea/kotlinc.xml
+# .idea/compiler.xml
+
 ### Eclipse ###
 .apt_generated
 .classpath
@@ -41,6 +64,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 
 # Compiled class file
@@ -68,3 +97,5 @@ bin/
 hs_err_pid*
 replay_pid*
 
+# Local configuration files
+local.properties
